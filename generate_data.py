@@ -11,7 +11,7 @@ num_users = 200
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
 def random_juja_coordinates():
-    lat = random.uniform(-1.099, -1.097)      # Latitude range for Juja
+    lat = random.uniform(-1.099, -1.087)      # Latitude range for Juja
     lon = random.uniform(37.010, 37.015)      # Longitude range for Juja
     return lat, lon
 
